@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfoliodomi/static/css/main.5ed3a278.css",
+    "main.js": "/portfoliodomi/static/js/main.4f9659e3.js",
+    "static/js/453.1407b060.chunk.js": "/portfoliodomi/static/js/453.1407b060.chunk.js",
+    "static/media/modern-website-design-img.jpg": "/portfoliodomi/static/media/modern-website-design-img.19d8f775fced504fb94b.jpg",
+    "static/media/Projectimg-4.webp": "/portfoliodomi/static/media/Projectimg-4.3c0182e7cfb58dfeb13f.webp",
+    "static/media/Projectimg-1.webp": "/portfoliodomi/static/media/Projectimg-1.c97e17866b439e7c0dd3.webp",
+    "static/media/Projectimg-3.webp": "/portfoliodomi/static/media/Projectimg-3.c8fcdbd118a03f67696b.webp",
+    "static/media/Projectimg-2.webp": "/portfoliodomi/static/media/Projectimg-2.ec47fefabd5bd38af338.webp",
+    "static/media/logo.svg": "/portfoliodomi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfoliodomi/index.html",
+    "main.5ed3a278.css.map": "/portfoliodomi/static/css/main.5ed3a278.css.map",
+    "main.4f9659e3.js.map": "/portfoliodomi/static/js/main.4f9659e3.js.map",
+    "453.1407b060.chunk.js.map": "/portfoliodomi/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ed3a278.css",
+    "static/js/main.4f9659e3.js"
+  ]
+}
