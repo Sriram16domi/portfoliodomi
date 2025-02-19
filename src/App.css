@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #000000;
+}
+nav ul li{
+  @apply p-2 ml-6 mt-4
+}
+.icon-alignment{
+  @apply pr-2 text-red-500
+}
+.maingrid{
+  @apply bg-gray-900 rounded-2xl 
+}
+.smmaingrid{
+  @apply bg-gray-900 rounded-lg text-center flex flex-col justify-center p-10
+}
+
+.projectgrids{
+  @apply border rounded-lg m-2 h-auto
+}
+.projectgridimg{
+  @apply h-[70%] w-screen grayscale-70 rounded-lg
+}
+.projectliststyle{
+  @apply border px-2 py-1  ml-3 my-3 rounded-md text-sm capitalize hover:bg-red-500 hover:border-none cursor-pointer
+}
+

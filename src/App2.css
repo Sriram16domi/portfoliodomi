@@ -1,0 +1,11 @@
+@media (max-width:550px) {
+    .Hero-container{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+    }
+    .Subhero-container{
+        width: 100%;
+    }
+
+}
