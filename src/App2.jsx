@@ -1,4 +1,5 @@
-import image1 from "../src/assets/Projectimg-1.webp"
+
+import image1 from "../src/assets/projectimg-1.png"
 import image2 from '../src/assets/Projectimg-2.webp'
 import image3 from '../src/assets/Projectimg-3.webp'
 import image4 from '../src/assets/Projectimg-4.webp'
@@ -13,12 +14,12 @@ export default function Project() {
 
 
             <div className='projectgrids'>
-               <img className='projectgridimg' src={image2} alt="" />
+               <img className='projectgridimg' src={image1} alt="" />
 
                <ul className='flex'>
-                  <li className='projectliststyle'>webflow</li>
-                  <li className='projectliststyle'>adobe xd</li>
-                  <li className='projectliststyle'>jquery</li>
+                  <li className='projectliststyle'>React js</li>
+                  <li className='projectliststyle'>Tailwind css</li>
+                  <li className='projectliststyle'>css</li>
                </ul>
 
                <p className='ml-4 capitalize text-2xl'>E commerse</p>
