@@ -1,4 +1,4 @@
-import profile from "../../assets/profile.png"
+import profile from "../../assets/profile - Copy.png"
 import {FiCoffee } from "react-icons/fi"
 import { CgNotes } from "react-icons/cg";
 import { MdVideoLibrary } from "react-icons/md";
