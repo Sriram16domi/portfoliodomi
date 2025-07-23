@@ -47,7 +47,7 @@ export default function Heromain(){
               <button><TfiMicrosoftAlt className="h-4/6 w-4/6"/></button>
 
         </div>
-    </div>
+      </div>
     </div>
     </>
 }
