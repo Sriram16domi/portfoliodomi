@@ -3,10 +3,6 @@ import {FiCoffee } from "react-icons/fi"
 import { CgNotes } from "react-icons/cg";
 import { MdVideoLibrary } from "react-icons/md";
 import { RiAccountPinBoxFill } from "react-icons/ri";
-import { FaFacebookMessenger } from "react-icons/fa6";
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import App from "../../App";
-import App2 from '../../App2'
 import { Link } from "react-router-dom";
 import './navbar.css'
 export default function Navbar(){
