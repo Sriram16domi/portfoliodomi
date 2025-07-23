@@ -20,7 +20,7 @@ export default function Heromain(){
         <div className="flex flex-col items-start justify-center bg-slate-900 rounded-2xl">
             <h1 className="p-4 text-2xl capitalize">your ultimate webflow partner</h1>
             <p className="px-4 pb-4 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi commodi rerum, voluptate neque ipsum quidem. Perspiciatis ut similique repudiandae, illum dolor aperiam accusantium officia! Ut consectetur qui impedit odio iste?</p>
-            <a href="#" className="text-sm p-4 capitalize text-red-500 flex items-center">get in touch <span><FaAngleDoubleRight className="text-red-500 ml-2 mt-1"/></span></a>
+            <button className="text-sm p-4 capitalize text-red-500 flex items-center">get in touch <span><FaAngleDoubleRight className="text-red-500 ml-2 mt-1"/></span></button>
                 
         </div>
         <div className="maingrid flex items-center justify-center flex-col">
@@ -39,16 +39,15 @@ export default function Heromain(){
 
             <div className="grid  grid-cols-3 gap-3 h-4/6 w-4/6">
 
-              <a href="#"><FaCcAmazonPay className="h-4/6 w-4/6 "/></a>
-              <a href="#"><FaFacebook className="h-4/6 w-4/6"/></a>
-              <a href="#"><FaGooglePay className="h-4/6 w-4/6"/></a>
-              <a href="#"><SiPrime className="h-4/6 w-4/6"/></a>
-              <a href="#"><SiNetflix className="h-4/6 w-4/6"/></a>
-              <a href="#"><TfiMicrosoftAlt className="h-4/6 w-4/6"/></a>
-
-            </div>
+              <button><FaCcAmazonPay className="h-4/6 w-4/6 "/></button>
+              <button><FaFacebook className="h-4/6 w-4/6"/></button>
+              <button><FaGooglePay className="h-4/6 w-4/6"/></button>
+              <button><SiPrime className="h-4/6 w-4/6"/></button>
+              <button><SiNetflix className="h-4/6 w-4/6"/></button>
+              <button><TfiMicrosoftAlt className="h-4/6 w-4/6"/></button>
 
         </div>
+    </div>
     </div>
     </>
 }
