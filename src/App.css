@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-color: #000000;
+  background-color: #0e0d0d;
 }
 nav ul li{
   @apply p-2 ml-6 mt-4

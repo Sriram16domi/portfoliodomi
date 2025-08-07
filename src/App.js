@@ -6,6 +6,7 @@ import Hero from './components/hero/hero';
 import Heromain from './components/heromain/heromain';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Project from './App2';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               </>
             } />
             <Route path="/project" element={<Project/>} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
         </div>
       </div>

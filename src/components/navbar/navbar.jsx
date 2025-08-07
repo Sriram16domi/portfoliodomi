@@ -8,9 +8,9 @@ import './navbar.css'
 export default function Navbar(){
 return <>
      <nav className="Navbar-Container bg-gray-900 w-1/3 md:w-1/6 flex flex-col h-screen sticky top-0">
-        <div className="Navbar-left flex flex-col items-center">
+        <div className="Navbar-left flex flex-co items-center">
            <img className="rounded-full border-2 border-red-500 w-1/2 p-1 mt-2" src={profile} alt="loading" />
-           <h1 className="text-white font-bold text-xl tracking-widest uppercase font-sans">domi</h1>
+           <h1 className="text-white font-bold text-xl tracking-widest uppercase font-sans">Sriram</h1>
            <div className="Navbar-left-heading">
             <h1 className="text-red-500 font-bold uppercase text-sm">.</h1>
            </div>
@@ -19,9 +19,9 @@ return <>
         <ul className="navbar-list text-white font-normal capitalize mt-20">
           <li className="flex items-center"><span className="icon-alignment"><FiCoffee/></span><Link to='/'>home</Link></li>
           <li className="flex items-center"><span className="icon-alignment"><CgNotes/></span><Link to='/project'>Project</Link></li>
+          
           <li className="flex items-center"><span className="icon-alignment"><MdVideoLibrary/></span>video</li>
-          <li className="flex items-center"><span className="icon-alignment"><RiAccountPinBoxFill/></span>about</li>
-          <li className="flex items-center"><span className="icon-alignment"><RiAccountPinBoxFill/></span>contact</li>
+          <li className="flex items-center"><span className="icon-alignment"><RiAccountPinBoxFill/></span>about</li><li className="flex items-center"><span className="icon-alignment"><RiAccountPinBoxFill/></span><Link to='/contact'>contact</Link></li> 
         </ul>
 
      </nav>
